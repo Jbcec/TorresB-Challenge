@@ -9,11 +9,12 @@ export class CalcKeypad {
   @Event() buttonPressed: EventEmitter<string>;
 
   private buttons: string[] = [
-    'C', 'CLR', '%', '/',
-    '7', '8', '9', '*',
-    '4', '5', '6', '-',
-    '1', '2', '3', '+',
-    '0', '.', '='
+    'C','CLR','%','/',
+    '7','8','9','*',
+    '4','5','6','-',
+    '1','2','3','+',
+    '0','.','=',
+    'COPY','PASTE'
   ];
 
   handleClick(value: string) {
