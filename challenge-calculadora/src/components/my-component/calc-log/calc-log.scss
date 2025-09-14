@@ -1,0 +1,22 @@
+.log {
+  margin-top: 1rem;
+  background: #111;
+  padding: 0.5rem;
+  border-radius: 4px;
+
+  h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1rem;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      font-size: 0.9rem;
+      border-bottom: 1px solid #333;
+      padding: 0.3rem 0;
+    }
+  }
+}
